@@ -1,0 +1,60 @@
+/* font-family: 'Dongle', sans-serif;
+font-family: 'Mochiy Pop P One', sans-serif; */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 18px;
+}
+
+body,
+.emoji-input {
+  text-align: center;
+  font-family: "Dongle", sans-serif;
+}
+
+h1 {
+  font-family: "Mochiy Pop P One", sans-serif;
+  font-size: 3rem;
+}
+
+button {
+  font-family: "Dongle", sans-serif;
+  font-size: 2rem;
+  padding: 0 0.5em;
+  border: none;
+  border-radius: 5px;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 3rem auto;
+}
+
+.emoji-input {
+  width: 400px;
+  font-size: 2rem;
+  letter-spacing: 0.2em;
+  box-shadow: 0px 0px 20px -5px rgb(160 160 160);
+  margin: 3rem 0;
+  border: none;
+  border-radius: 5px;
+  padding: 0.3em;
+}
+
+.add-start-btn,
+.add-end-btn {
+  background-color: #00a4ccff;
+}
+
+.remove-start-btn,
+.remove-end-btn {
+  background-color: #ff3ea5ff;
+}
