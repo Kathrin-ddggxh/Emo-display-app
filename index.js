@@ -9,7 +9,7 @@ const popBtn = document.getElementById("remove-end-btn");
 const emojiEl = document.getElementById("emoji-container");
 const emojiInput = document.getElementById("emoji-input");
 
-emojiEl.style.fontSize = "80px";
+emojiEl.style.fontSize = "60px";
 // default display
 emojiEl.innerHTML = "🐱‍👓 🐱‍🐉 🐱‍💻";
 

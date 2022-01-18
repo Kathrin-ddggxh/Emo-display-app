@@ -14,7 +14,7 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="header-container">
       <h1>This is me!</h1>
       <input
         type="text"
@@ -25,23 +25,24 @@
       <p>
         Press Win + . (Windows) or Cmd + Ctrl + Space (Mac) for emoji picker
       </p>
-
-      <div class="app-container">
-        <div class="start-buttons">
-          <button id="add-start-btn" class="add-start-btn">Add &gt;</button>
-          <button id="remove-start-btn" class="remove-start-btn">
-            Remove &gt;
-          </button>
-        </div>
-        <div id="emoji-container"></div>
-        <div class="remove-buttons">
-          <button id="add-end-btn" class="add-end-btn">&lt; Add</button>
-          <button id="remove-end-btn" class="remove-end-btn">
-            &lt; Remove
-          </button>
-        </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <button id="add-start-btn" class="add-start-btn">Add<br />&gt;</button>
+        <button id="remove-start-btn" class="remove-start-btn">
+          Remove<br />
+          &gt;
+        </button>
+      </div>
+      <div id="emoji-container"></div>
+      <div class="column">
+        <button id="add-end-btn" class="add-end-btn">Add<br />&lt;</button>
+        <button id="remove-end-btn" class="remove-end-btn">
+          Remove<br />&lt;
+        </button>
       </div>
     </div>
+    <p class="test-p">Lorem ipsum dolor sit amet.</p>
     <script src="index.js"></script>
   </body>
 </html>

@@ -32,9 +32,9 @@ p {
 button {
   font-family: "Dongle", sans-serif;
   font-size: 2rem;
-  padding: 0 0.5em;
+  line-height: 1;
+  padding: 0.1em;
   border: none;
-  border-radius: 5px;
   margin: 0.5em 0;
 }
 
@@ -42,15 +42,21 @@ button:hover {
   cursor: pointer;
 }
 
-.container {
+.header-container {
   width: 90%;
   max-width: 800px;
   margin: 3rem auto;
 }
 
-.app-container {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .emoji-input {
@@ -63,10 +69,6 @@ button:hover {
   padding: 0.3em;
 }
 
-.emoji-container {
-  grid-area: display;
-}
-
 .add-start-btn,
 .add-end-btn {
   background-color: #00a4ccff;
@@ -75,4 +77,19 @@ button:hover {
 .remove-start-btn,
 .remove-end-btn {
   background-color: #ff3ea5ff;
+}
+
+.add-start-btn,
+.remove-start-btn {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.add-end-btn,
+.remove-end-btn {
+  border-radius: 10px 0 0 10px;
+}
+
+.test-p {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
