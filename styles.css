@@ -19,6 +19,14 @@ html,
   font-family: "Dongle", sans-serif;
 }
 
+body {
+  background-image: linear-gradient(
+    rgb(255, 255, 255),
+    rgb(190, 190, 190),
+    rgb(255, 255, 255)
+  );
+}
+
 h1 {
   font-family: "Mochiy Pop P One", sans-serif;
   font-size: 3rem;
@@ -87,9 +95,4 @@ button:hover {
 .add-end-btn,
 .remove-end-btn {
   border-radius: 10px 0 0 10px;
-}
-
-.test-p {
-  writing-mode: vertical-lr;
-  text-orientation: upright;
 }
