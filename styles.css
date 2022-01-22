@@ -54,6 +54,11 @@ button:hover {
   cursor: pointer;
 }
 
+button:active {
+  transform: scale(1.1);
+  color: rgb(196, 196, 196);
+}
+
 .header-container {
   width: 90%;
   max-width: 800px;
@@ -99,4 +104,27 @@ button:hover {
 .add-end-btn,
 .remove-end-btn {
   border-radius: 10px 0 0 10px;
+}
+
+@media (min-width: 700px) {
+  button {
+    font-size: 2.3rem;
+
+    padding: 0.1em;
+    border: none;
+    margin: 0.8em;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .add-end-btn,
+  .remove-end-btn,
+  .add-start-btn,
+  .remove-start-btn {
+    border-radius: 10px;
+  }
 }

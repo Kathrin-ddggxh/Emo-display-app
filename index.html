@@ -14,35 +14,38 @@
     />
   </head>
   <body>
-    <div class="header-container">
-      <h1>This is me!</h1>
-      <input
-        type="text"
-        id="emoji-input"
-        class="emoji-input"
-        placeholder="Type your emoji 🐱‍🚀"
-      />
-      <p>
-        Press Win + . (Windows) or Cmd + Ctrl + Space (Mac) for emoji picker
-      </p>
-    </div>
-    <div class="row">
-      <div class="column">
-        <button id="add-start-btn" class="add-start-btn">Add<br />&gt;</button>
-        <button id="remove-start-btn" class="remove-start-btn">
-          Remove<br />
-          &lt;
-        </button>
+    <div class="container">
+      <div class="header-container">
+        <h1>This is me!</h1>
+        <input
+          type="text"
+          id="emoji-input"
+          class="emoji-input"
+          placeholder="Type your emoji 🐱‍🚀"
+        />
+        <p>
+          Press Win + . (Windows) or Cmd + Ctrl + Space (Mac) for emoji picker
+        </p>
       </div>
-      <div id="emoji-container"></div>
-      <div class="column">
-        <button id="add-end-btn" class="add-end-btn">Add<br />&lt;</button>
-        <button id="remove-end-btn" class="remove-end-btn">
-          Remove<br />&gt;
-        </button>
+      <div class="row">
+        <div class="column">
+          <button id="add-start-btn" class="add-start-btn">
+            Add<br />&gt;
+          </button>
+          <button id="remove-start-btn" class="remove-start-btn">
+            Remove<br />
+            &lt;
+          </button>
+        </div>
+        <div id="emoji-container"></div>
+        <div class="column">
+          <button id="add-end-btn" class="add-end-btn">Add<br />&lt;</button>
+          <button id="remove-end-btn" class="remove-end-btn">
+            Remove<br />&gt;
+          </button>
+        </div>
       </div>
     </div>
-
     <script src="index.js"></script>
   </body>
 </html>
