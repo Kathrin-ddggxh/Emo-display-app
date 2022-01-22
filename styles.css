@@ -21,10 +21,14 @@ html,
 
 body {
   background-image: linear-gradient(
+    rgb(190, 190, 190),
     rgb(255, 255, 255),
     rgb(190, 190, 190),
     rgb(255, 255, 255)
   );
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
