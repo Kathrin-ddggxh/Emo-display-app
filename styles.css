@@ -44,6 +44,7 @@ p {
 button {
   font-family: "Dongle", sans-serif;
   font-size: 2rem;
+
   line-height: 1;
   padding: 0.1em;
   border: none;
